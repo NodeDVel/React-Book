@@ -1,9 +1,9 @@
 import React from 'react';
-import Say from '../src/state/Say';
+import EventPractice from '../src/eventComponent/EventPractie';
 
 function App() {
   return (
-    <Say/>
+    <EventPractice/>
   )
 }
 
