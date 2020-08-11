@@ -15,3 +15,13 @@ const Counter = () => {
 }
 
 export default Counter;
+
+// const [visible, setVisible] = useState(false); //App.jsx에서 사용하는 코드
+
+// return (
+//   <div>
+//     <button onClick={() => setVisible(!visible)}>{visible ? '숨기기' : '보이기'}</button>
+//     <hr/>
+//     {visible && <Info/>}
+//   </div>
+// )
