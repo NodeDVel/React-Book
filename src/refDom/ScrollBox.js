@@ -23,14 +23,24 @@ class ScrollBox extends Component {
     }
 
     return (
-      <div
+      <input
       style={style} 
       ref={(ref) => this.box = ref}>
         <div style={innerStyle}/>
-      </div>
+      </input>
     );
     
   }
 }
 
 export default ScrollBox;
+
+
+// render() { //App.js 에서 class로 extends로 compoenent로 받고 안에 작성
+//   return(
+//     <div>
+//       <ScrollBox ref={(ref) => this.scrollBox = ref}/>
+//       <button onClick={() => this.scrollBox.scrollToBottom()}>맨 앞으로</button>
+//     </div>
+//   )
+// };
