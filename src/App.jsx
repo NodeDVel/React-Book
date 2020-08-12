@@ -1,9 +1,8 @@
 import React from 'react';
-import CounterReducer from './Hooks/CounterReducer';
-import Info from './Hooks/Info';
+import Average from './Hooks/Averager';
 
 const App = () => {
-  return <Info/>
+  return <Average/>
 }
 
 export default App;

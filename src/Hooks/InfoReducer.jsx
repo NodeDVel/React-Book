@@ -20,7 +20,7 @@ const InfoReducer = () => {
   return (
     <div>
       <div>
-        <input name="name" value={name} onCHange={onChange} />
+        <input name="nayme" value={name} onCHange={onChange} />
         <input name="nickname" value={nickname} onChange={onChange} />
       </div>
       <div>
