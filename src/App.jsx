@@ -1,8 +1,8 @@
 import React from 'react';
-import InfoCustomHooks from './Hooks/InfiCustomHooks';
+import SassComponent from './componentStyle/SassComponent';
 
 const App = () => {
-  return <InfoCustomHooks/>
+  return <SassComponent/>
 }
 
 export default App;
