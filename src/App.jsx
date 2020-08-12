@@ -1,8 +1,8 @@
 import React from 'react';
-import Average from './Hooks/Averager';
+import InfoCustomHooks from './Hooks/InfiCustomHooks';
 
 const App = () => {
-  return <Average/>
+  return <InfoCustomHooks/>
 }
 
 export default App;
