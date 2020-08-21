@@ -54,7 +54,7 @@ function todos(state = initialState, action) {
       }
     case INSERT: 
       return {
-        ...sate,
+        ...state,
         todos: state.todos.concat(action.todo)
       };
     case TOGGLE:
