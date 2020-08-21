@@ -3,8 +3,8 @@ const DECREASE = 'counter/DECREASE';
 
 //액션 타입은 대문자로 정의 & 문자열 내용은 '모듈이름/액션이름'
 
-export const increase = () => ({ type: 'INCREASE' });
-export const decrease = () => ({ type: 'DECREASE' });
+export const increase = () => ({ type: INCREASE });
+export const decrease = () => ({ type: DECREASE });
 
 const initialState = {
   number: 0,
