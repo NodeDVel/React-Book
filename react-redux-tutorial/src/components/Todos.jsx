@@ -28,7 +28,7 @@ const Todos = ({
     onInsert(input);
     onChangeInput('');
   };
-
+  
   const onChange = e => onChangeInput(e.target.value);
 
   return (
